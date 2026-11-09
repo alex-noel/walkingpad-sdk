@@ -1,0 +1,28 @@
+[package]
+name = "walkingpad-sdk"
+description = "Walking pad discovery, telemetry, recording, and opt-in bounded speed control"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[lib]
+name = "walkingpad"
+
+[features]
+default = ["ble"]
+ble = ["dep:btleplug", "dep:futures", "dep:tokio"]
+
+[dependencies]
+base64.workspace = true
+btleplug = { workspace = true, optional = true }
+futures = { workspace = true, optional = true }
+hex.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true
+tokio = { workspace = true, optional = true }
+uuid.workspace = true
+
+[lints]
+workspace = true
+

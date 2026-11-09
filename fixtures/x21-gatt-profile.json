@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "device": {
+    "id": "redacted-x21-macos",
+    "name": "KS-NACH-X21C",
+    "rssi": null,
+    "advertised_services": []
+  },
+  "services": [
+    {
+      "uuid": "00011234-0000-1000-8000-00805f9b34fb",
+      "primary": true,
+      "characteristics": [
+        {
+          "uuid": "0001fed7-0000-1000-8000-00805f9b34fb",
+          "properties": {
+            "read": true,
+            "write": false,
+            "write_without_response": true,
+            "notify": false,
+            "indicate": false
+          }
+        },
+        {
+          "uuid": "0001fed8-0000-1000-8000-00805f9b34fb",
+          "properties": {
+            "read": true,
+            "write": false,
+            "write_without_response": false,
+            "notify": true,
+            "indicate": false
+          }
+        }
+      ]
+    }
+  ],
+  "protocol_candidates": []
+}

@@ -1,0 +1,5 @@
+{"type":"profile","format_version":1,"quality":"simulated","profile":{"schema_version":1,"device":{"id":"synthetic-ftms","name":"Synthetic FTMS fixture","rssi":null,"advertised_services":["00001826-0000-1000-8000-00805f9b34fb"]},"services":[],"protocol_candidates":[]}}
+{"type":"notification","elapsed_ms":0,"service_uuid":"00001826-0000-1000-8000-00805f9b34fb","characteristic_uuid":"00002acd-0000-1000-8000-00805f9b34fb","payload_hex":"04042c01b00400a005"}
+{"type":"notification","elapsed_ms":3500,"service_uuid":"00001826-0000-1000-8000-00805f9b34fb","characteristic_uuid":"00002acd-0000-1000-8000-00805f9b34fb","payload_hex":"0500b50400"}
+{"type":"notification","elapsed_ms":4000,"service_uuid":"00001826-0000-1000-8000-00805f9b34fb","characteristic_uuid":"00002acd-0000-1000-8000-00805f9b34fb","payload_hex":"00000000"}
+{"type":"end","elapsed_ms":5000,"reason":"synthetic_fixture_complete"}
